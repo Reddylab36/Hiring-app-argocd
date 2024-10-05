@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: rajashekhar36/new-argo-image
+        image: rajashekhar36/new-argo-image:$IMAGE_TAG
         ports:
         - containerPort: 8080
